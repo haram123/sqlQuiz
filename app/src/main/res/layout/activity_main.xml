@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Enter Your Phone Number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnSubmit"
+        android:padding="5dp"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/btnShowData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnShowData"
+        android:padding="5dp"
+        android:text="Show Data" />
+
+    <Button
+        android:id="@+id/btnEditData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnEditData"
+        android:padding="5dp"
+        android:text="Edit Data" />
+
+    <EditText
+        android:id="@+id/etEditID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the ID "
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEditName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEditNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Phone Number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnEditDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnEditDone"
+        android:text="Done" />
+
+    <Button
+        android:id="@+id/btnDeleteData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnDelete"
+        android:padding="5dp"
+        android:text="Delete Data" />
+
+    <EditText
+        android:id="@+id/etIdDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter ID you wish to delete"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnDeleteDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnDeleteDone"
+        android:text="Done" />
+</LinearLayout>
